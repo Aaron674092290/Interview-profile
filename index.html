@@ -14,8 +14,11 @@
   </div>
   <script>
     var url = {
-      letzgoal: "https://fish-1256004880.cos.ap-shenzhen-fsi.myqcloud.com/%E9%A1%B9%E7%9B%AE%E8%A7%86%E9%A2%91/letzgoal-web.mp4",
-      eventWeb: "https://fish-1256004880.cos.ap-shenzhen-fsi.myqcloud.com/%E9%A1%B9%E7%9B%AE%E8%A7%86%E9%A2%91/event-web.mp4"
+      letzgoal: "https://fish-1256004880.cos.ap-shenzhen-fsi.myqcloud.com/video/letzgoal-web.mp4",
+      eventWeb: "https://fish-1256004880.cos.ap-shenzhen-fsi.myqcloud.com/video/event-web.mp4",
+      huanxileiju: "https://fish-1256004880.cos.ap-shenzhen-fsi.myqcloud.com/video/%E6%AC%A2%E5%96%9C%E9%9B%B7%E5%89%A7.mp4",
+      running: "https://fish-1256004880.cos.ap-shenzhen-fsi.myqcloud.com/video/%E9%BD%90%E8%B7%91web.mp4",
+      gsy: "https://fish-1256004880.cos.ap-shenzhen-fsi.myqcloud.com/video/%E9%AB%98%E6%90%9C%E6%98%93%E9%BB%84%E9%87%91.mp4"
     }
     var hash = location.hash.slice(1)
     document.querySelector('video').src = url[hash];
