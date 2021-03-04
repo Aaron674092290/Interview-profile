@@ -1,5 +1,7 @@
 ## 齐跑 web（旧项目）
 
+下载地址：https://706d-pm-test-142628-1251760823.tcb.qcloud.la/download/index.html
+
 由于 api 的变动，部分数据可能已经不可用
 
 - 列表页面实现懒加载
